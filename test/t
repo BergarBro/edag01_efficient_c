@@ -1,0 +1,1 @@
+gcc test.c -o test && ./test < input.txt > output && diff output correct && echo PASS
